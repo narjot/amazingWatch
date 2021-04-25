@@ -21,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { EncryptPipe } from './controls/encrypt.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     ShowInfoComponent,
     ShowDetailsComponent,
     WatchlistComponent,
-    ErrorComponent
+    ErrorComponent,
+    EncryptPipe
   ],
   imports: [
     BrowserModule,
